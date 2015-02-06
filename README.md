@@ -1,6 +1,3 @@
-# portfolio2015
-My website for 2015
-
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
@@ -9,7 +6,7 @@ My website for 2015
 	<meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<title>Jean Saldaña</title>
-	<meta name="description" content="Jean Saldaña Diseño">
+	<meta name="description" content="Sitio web donde comparto mis trabajos recientes en diseño, web, branding, editorial, UX, Wordpress.">
 	<meta name="keywords" content="jean saldaña, diseño, web, branding, multimedia, identidad corporativa, freelance, guadalajara">
 	<meta name="author" content="Jean Saldaña">
 
@@ -43,8 +40,8 @@ My website for 2015
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 
 
-	<link rel="stylesheet" type="text/css" href="stylesheets/colors/ruby-red.css">
-	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/aqua-blue.css"> -->
+	<!--<link rel="stylesheet" type="text/css" href="stylesheets/colors/ruby-red.css">-->
+	<link rel="stylesheet" type="text/css" href="stylesheets/colors/aqua-blue.css"> 
 	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/mint-green.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/rose-pink.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/sunflower-yellow.css"> -->
@@ -70,7 +67,7 @@ My website for 2015
 		<!-- Logo -->
 		<div class="logo">
 			<!--<a id="top" href="#"><img src="images/logo.png" width="91" height="30" alt="Visia"></a> -->
-			<a id="top" href="#"><img src="images/logo-temporal-01.png" width="120" height="30" alt="Visia"></a>
+			<a id="top" href="#"><img src="images/logo.png" width="180" height="40" alt="Visia"></a>
 		</div>
 
 		<!-- Mobile Nav Button -->
@@ -103,6 +100,8 @@ My website for 2015
 
 			<!-- Headings -->
 			<div class="ticker">
+				<h1>Hola. Soy Jean.</h1>
+				<h1>& soy soy diseñadora web</h1>
 				<h1>Soluciones creativas.</h1>
 				<h1>Ideas creativas.</h1>
 			 	<h1>Diseño creativo.</h1>
@@ -110,7 +109,7 @@ My website for 2015
 
 		 	<!-- Buttons -->
 			<ul class="call-to-action">
-				<li><a class="button" href="#section2">MÁS INFORMACIÓN</a></li>
+				<li><a class="button" href="#section2">CONTÁCTAME</a></li>
 				<!--<li><a class="button no-border" href="http://themeforest.net/user/Aether-Themes/portfolio?ref=Aether-Themes" target="_blank">CONTACTAR<i class="icon right"></i></a></li>-->
 			</ul>
 
@@ -125,6 +124,23 @@ My website for 2015
 	</section>
 	<!-- End Slider -->
 
+		<!-- Begin About -->
+	<div class="slider-cover">
+	<section id="section2" class="content container">
+
+		<!-- Text -->
+		<div class="title grid-full">
+			<h2>Acerca de mí</h2>
+			<span class="border"></span>
+			<p class="sub-heading">Proveniente de Puebla y ahora viviendo en Jalisco. Tengo una licenciatura en Animación y Arte Digital del Tecnológico de Monterrey Campus Puebla y más de dos años de experiencia ofreciendo soluciones gráficas para branding y web.<!--We offer creative solutions for every web-based project you can think of. We take pride in our work and everything we create is executed with precision and love.--></p>
+		</div>
+
+		<!-- Image -->
+		<img class="animated slide"  data-appear-bottom-offset="100" src="images/about.jpg" alt="About Visia">
+	</section>
+	</div>
+	<!-- End About -->
+
 	<!-- Begin Services -->
 	<section id="section3" class="parallax-bg2 parallax colored clearfix">
 		<div class="content dark padded container">
@@ -134,7 +150,7 @@ My website for 2015
 				<h2>Servicios</h2>
 				<span class="border"></span>
 				<p class="sub-heading">
-					Mis servicios abarcan desde diseño web hasta diseño web. 
+					Desde imprenta hasta web. Traduzco tus ideas en acciones.
 					<!--Our services offering ranges from UX design to e-commerce setups. Just check out all of the service lists below to get a general idea of what we are capable of delivering. And make sure to see our portfolio for proof of our awesomeness.--></p>
 			</div>
 
@@ -149,9 +165,12 @@ My website for 2015
 						<div class="details">
 							<span class="arrow-down"></span>
 							<ul class="feature-list">
-								<li><span class="list-dot"></span>Wireframing</li>
+								<!--<li><span class="list-dot"></span>Wireframing</li>
 								<li><span class="list-dot"></span>Content Strategy</li>
-								<li><span class="list-dot"></span>Information Architecture</li>
+								<li><span class="list-dot"></span>Information Architecture</li>-->
+								<li><span class="list-dot"></span>Folletos</li>
+								<li><span class="list-dot"></span>Flyers</li>
+								<li><span class="list-dot"></span>Editorial</li>
 							</ul>
 						</div>
 					</div>
@@ -169,16 +188,19 @@ My website for 2015
 						<div class="details">
 							<span class="arrow-down"></span>
 							<ul class="feature-list">
-								<li><span class="list-dot"></span>Branding</li>
+								<!--<li><span class="list-dot"></span>Branding</li>
 								<li><span class="list-dot"></span>Web Design</li>
 								<li><span class="list-dot"></span>Mobile Apps</li>
-								<li><span class="list-dot"></span>Animation and Motion</li>
+								<li><span class="list-dot"></span>Animation and Motion</li>-->
+								<li><span class="list-dot"></span>Logotipos</li>
+								<li><span class="list-dot"></span>Tarjetas de Presentación</li>
+								<li><span class="list-dot"></span>Diseño del Producto</li>
 							</ul>
 						</div>
 					</div>
 
 					<!-- Title -->
-					<h4>Branding</h4>
+					<h4>Identidad Corporativa</h4>
 				</li>
 
 				<!-- Single Icon -->
@@ -189,10 +211,13 @@ My website for 2015
 						<div class="details">
 							<span class="arrow-down"></span>
 							<ul class="feature-list">
-								<li><span class="list-dot"></span>Meta Information</li>
+								<!--<li><span class="list-dot"></span>Meta Information</li>
 								<li><span class="list-dot"></span>Ad Words Campaign</li>
 								<li><span class="list-dot"></span>Google Optimization</li>
-								<li><span class="list-dot"></span>Bing Optimization</li>
+								<li><span class="list-dot"></span>Bing Optimization</li>-->
+								<li><span class="list-dot"></span>Hosting</li>
+								<li><span class="list-dot"></span>Dominio</li>
+								<li><span class="list-dot"></span>Asesoría Técnica</li>
 							</ul>
 						</div>
 					</div>
@@ -209,9 +234,14 @@ My website for 2015
 						<div class="details">
 							<span class="arrow-down"></span>
 							<ul class="feature-list">
+								<!--
 								<li><span class="list-dot"></span>Facebook Apps and Pages</li>
 								<li><span class="list-dot"></span>Twitter Setup</li>
 								<li><span class="list-dot"></span>Social Strategy and Planing</li>
+								-->
+								<li><span class="list-dot"></span>E-commerce</li>
+								<li><span class="list-dot"></span>Shopify</li>
+								<li><span class="list-dot"></span>Redes Sociales</li>
 							</ul>
 						</div>
 					</div>
@@ -228,10 +258,13 @@ My website for 2015
 						<div class="details">
 							<span class="arrow-down"></span>
 							<ul class="feature-list">
-								<li><span class="list-dot"></span>HTML and CSS</li>
+								<!--<li><span class="list-dot"></span>HTML and CSS</li>
 								<li><span class="list-dot"></span>PHP, Ruby and Python</li>
 								<li><span class="list-dot"></span>Object C</li>
-								<li><span class="list-dot"></span>Javascript and jQuery</li>
+								<li><span class="list-dot"></span>Javascript and jQuery</li>-->
+								<li><span class="list-dot"></span>Arquitectura de la Info</li>
+								<li><span class="list-dot"></span>Experiencia del Usuario</li>
+								<li><span class="list-dot"></span>Usabilidad</li>
 							</ul>
 						</div>
 					</div>
@@ -248,9 +281,10 @@ My website for 2015
 						<div class="details">
 							<span class="arrow-down"></span>
 							<ul class="feature-list">
-								<li><span class="list-dot"></span>Online Shop Management</li>
+								<!--<li><span class="list-dot"></span>Online Shop Management</li>
 								<li><span class="list-dot"></span>Database Support</li>
-								<li><span class="list-dot"></span>E-commerce Cart</li>
+								<li><span class="list-dot"></span>E-commerce Cart</li>-->
+								<li><span class="list-dot"></span>Animación de Logos</li>
 							</ul>
 						</div>
 					</div>
@@ -459,9 +493,9 @@ My website for 2015
 
 			<div id="bx-prev"></div>
 			<div id="bx-next"></div>
-
+			
 			<!-- Testimonials -->
-			<div class="grid-full">
+			<!--<div class="grid-full">
 				<ul class="bxslider">
 					<li>
 						<h3>“Awesome, awesome theme. Easy to use and the code and accompanying files are super easy to understand and modify. Well done.”</h3>
@@ -480,56 +514,12 @@ My website for 2015
 						<h6>bcause via themeforest</h6>
 					</li>
 				</ul>
-			</div>
+			</div>-->
 		</div>
 	</section>
 	<!-- End Clients -->
 
-	<!-- Begin Footer -->
-	<footer id="footer" class="clearfix">
-		<div class="content dark container">
-
-			<!-- Contact Links -->
-			<ul class="contact animated hatch clearfix">
-				<li class="grid-2">
-					<img src="images/icons/telephone.png" alt="telephone" width="20" height="20">
-					<p>(33) 19 64 59 72</p>
-				</li>
-				<li class="grid-2">
-					<a id="contact-open" href="#">
-						<img src="images/icons/mail.png" alt="mail" width="20" height="20">
-						<br>
-						hello@jean-saldana.com
-					</a>
-				</li>
-				<li class="grid-2">
-					<a href="http://goo.gl/maps/ptykO" target="_blank">
-						<img src="images/icons/location.png" alt="location" width="20" height="20">
-						<br>
-						Mantenedor #65 Chapalita Inn<br>Guadalajara, Jalisco.
-					</a>
-				</li>
-			</ul>
-		</div>
-
-		<!-- Begin About -->
-	<div class="slider-cover">
-	<section id="section2" class="content container">
-
-		<!-- Text -->
-		<div class="title grid-full">
-			<h2>Acerca de mí</h2>
-			<span class="border"></span>
-			<p class="sub-heading">Proveniente de Puebla y ahora viviendo en Jalisco. Tengo una licenciatura en Animación y Arte Digital del Tecnológico de Monterrey Campus Puebla y más de dos años de experiencia ofreciendo soluciones gráficas para branding y web.<!--We offer creative solutions for every web-based project you can think of. We take pride in our work and everything we create is executed with precision and love.--></p>
-		</div>
-
-		<!-- Image -->
-		<img class="animated slide"  data-appear-bottom-offset="100" src="images/labuena.jpg" alt="About Visia">
-	</section>
-	</div>
-	<!-- End About -->
-
-		<!-- Contact Form -->
+			<!-- Contact Form -->
 		<div id="contact-form" class="dark clearfix">
 			<div class="container">
 				<div class="contact-heading grid-full">
@@ -559,6 +549,35 @@ My website for 2015
 				<div id="alert" class="grid-full"></div>
 			</form>	
 		</div>
+
+	<!-- Begin Footer -->
+	<footer id="footer" class="clearfix">
+		<div class="content dark container">
+
+			<!-- Contact Links -->
+			<ul class="contact animated hatch clearfix">
+				<li class="grid-2">
+					<img src="images/icons/telephone.png" alt="telephone" width="20" height="20">
+					<p>(33) 19 64 59 72</p>
+				</li>
+				<li class="grid-2">
+					<a id="contact-open" href="#">
+						<img src="images/icons/mail.png" alt="mail" width="20" height="20">
+						<br>
+						hello@jean-saldana.com
+					</a>
+				</li>
+				<li class="grid-2">
+					<a href="http://goo.gl/maps/ptykO" target="_blank">
+						<img src="images/icons/location.png" alt="location" width="20" height="20">
+						<br>
+						Mantenedor #65 Chapalita Inn<br>Guadalajara, Jalisco.
+					</a>
+				</li>
+			</ul>
+		</div>
+
+
 
 		<div class="container">
 
@@ -597,7 +616,7 @@ My website for 2015
 			</ul>
 
 			<!-- Copyright Info -->
-			<div class="copyright grid-full"><h6>©2013 Visia. All rights reserved.</h6></div>
+			<div class="copyright grid-full"><h6>©2014. Jean Saldaña. All rights reserved.</h6></div>
 
 		</div>
 	</footer>
